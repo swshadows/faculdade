@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Tags iniciais</title>
+  </head>
+
+  <!-- Tag body com atributos que definem, respectivamente: cor do fundo, cor do texto, cor dos links, cor dos links visitados e cor dos links ativos (somente no HTML4) -->
+  <body bgcolor="black" text="ffffff" link="ff00ff" vlink="ff0000" alink="00ff00">
+    <b>Texto em negrito</b>
+    <i>Texto em itálico</i>
+    <tt>Texto em monospace</tt>
+    <font size="100">Texto com fonte tamanho 100</font>
+    <font color="yellow">Texto com fonte em cor amarela</font>
+    <font face="times new roman">Texto com fonte em Times New Roman</font>
+    <a href="www.google.com.br">Link pro Google</a>
+    <a href="mailto:emailficticio@gmail.com">Link para enviar email</a>
+    <a href="#">Link para um alvo na mesma página</a>
+    <p>Tag p de parágrafo</p>
+    <p align="center">Paragrafo alinhado no centro</p>
+    <!-- Quebra de linha -->
+    <br />
+    <div align="right">
+      <p>Div com paragrafo, div alinhando o paragrafo a direita</p>
+    </div>
+    <!-- Carregando imagem local com borda 5 -->
+    <img src="husky.jpg" border="5" />
+    <!-- Carregando imagem na nuvem com borda 10, largura personalizada em 100 e alinhando ao centro com uma div -->
+    <div align="center">
+      <img width="100" src="https://love.doghero.com.br/wp-content/uploads/2018/08/husky-siberiano-2.png" border="10" />
+    </div>
+    <!-- Criando uma quebra de linha e uma linha horizontal -->
+    <hr />
+    <!-- Criando tabela com borda 3, espaçamento externo (cellspacing) em 3 e interno (cellpadding) em 10, e uma largura em 100% da tela-->
+    <table width="100%" border="3" cellspacing="3" cellpadding="10">
+      <!-- align pode alinhar linhas (tr) ou colunas (td) -->
+      <!-- valign não funciona no HTML5 -->
+      <tr align="center">
+        <td>Linha 1 Col 1</td>
+        <td>Linha 1 Col 2</td>
+        <td>Linha 1 Col 3</td>
+      </tr>
+      <tr valign="top">
+        <!-- colspan define a quantidade de colunas que uma célula ocupa -->
+        <td colspan="2">Linha 2 Col 1</td>
+        <td rowspan="2">Linha 2 Col 2</td>
+        <td>Linha 2 Col 3</td>
+      </tr>
+      <tr>
+        <!-- rowspan define a quantidade de linhas que uma célula ocupa -->
+        <td>Linha 3 Col 1</td>
+        <td>Linha 3 Col 2</td>
+        <td>Linha 3 Col 3</td>
+      </tr>
+    </table>
+  </body>
+</html>

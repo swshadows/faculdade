@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  background-image: url("../img/bg_sobre.jpg");
+  background-repeat: repeat;
+}
+a {
+  color: #6e8bba;
+  text-decoration: none;
+}
+a:hover {
+  color: #ba6e7c;
+  text-decoration: underline;
+}
+a:visited {
+  color: #8c6eba;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  color: #3b3b3b;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+}
+li {
+  list-style-type: square;
+  color: #3b3b3b;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 30px;
+}

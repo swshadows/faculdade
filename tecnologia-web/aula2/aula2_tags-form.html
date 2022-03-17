@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tags de formulário</title>
+  </head>
+  <body>
+    <form>
+      <label style="font-weight: bold; color: blue">Digite seu nome:</label><br />
+      <input style="font-size: 20px; color: white; background-color: red; width: 50%" type="text" name="nome" /><br />
+
+      <label style="font-weight: bold; color: blue">Digite sua senha:</label><br />
+      <input style="font-size: 20px; color: white; background-color: red; width: 50%" type="password" /><br />
+
+      <label style="font-weight: bold; color: blue">Comentários adicionais:</label><br />
+      <textarea cols="30" rows="10"></textarea><br />
+
+      <label style="font-weight: bold; color: blue">Input escondido</label><br />
+      <input type="hidden" value="José" /><br />
+
+      <label style="font-weight: bold; color: blue">Escolha seu gênero:</label><br />
+      <input type="radio" name="sexo" value="M" /> Masculino <input type="radio" name="sexo" value="F" /> Feminino <br />
+
+      <label style="font-weight: bold; color: blue">Escolha seus cursos de interesse:</label><br />
+      <input type="checkbox" name="op1" value="HTML" /> HTML <input type="checkbox" name="op2" value="CSS" /> CSS <input type="checkbox" name="op3" value="JS" /> JavaScript <br />
+
+      <select>
+        <option value="">Onde você mora?</option>
+        <option value="MAO">Manaus</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="SP">São Paulo</option>
+      </select>
+      <br />
+
+      <!-- Aparentente não faz muita coisa -->
+      <input type="button" value="Input tipo botão" /><br />
+      <input type="reset" value="Limpar dados" />
+      <input type="submit" value="Enviar formulário" />
+    </form>
+  </body>
+</html>

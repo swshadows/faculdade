@@ -1,0 +1,14 @@
+body {
+  background-image: url(../img/fundo.png);
+  /* repeat-x repeat-y no-repeat */
+  background-repeat: repeat;
+}
+img {
+  width: 200px;
+  border: 5px solid black;
+  cursor: help;
+}
+img:hover {
+  border: 5px solid red;
+  zoom: 120%;
+}

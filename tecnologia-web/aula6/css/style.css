@@ -1,0 +1,50 @@
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+}
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+header a {
+  margin: 0 2%;
+}
+header div {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+div {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  border: 5px solid transparent;
+}
+.para-info {
+  text-indent: 50px;
+  margin: 0 auto;
+  width: 80%;
+  text-align: justify;
+}
+.para-title {
+  margin: 25px auto;
+  width: 80%;
+}
+img:hover {
+  width: 20%;
+  border: 5px solid #e1e11e;
+  transform: scale(1.5);
+}
+article {
+  margin-bottom: 300px;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #aaa;
+  border-top: 1px solid #ff0000;
+}
