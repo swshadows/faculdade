@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <script language="javascript">
+      //   ? Variaveis
+      //   var nome = "Joelson";
+
+      //   ? Prompt
+      //   var nome = prompt("Digite seu nome:", "Mensagem do campo");
+      //   alert("Seja bem-vindo, " + nome);
+
+      //  ? Confirm
+      // ! Forma extendida
+      // ! Explicar duplo igual e triplo igual
+
+      //   var conf = confirm("Deseja confirmar?");
+      //   if (conf == true) {
+      //     alert("Operação confirmada");
+      //   } else {
+      //     alert("Operação cancelada");
+      //   }
+
+      //  ! Forma compacta
+      //   if (conf) alert("Operação confirmada");
+      //   else alert("Operação cancelada");
+
+      //   ? Write
+      //   var valor = 50 + 10;
+      // !  Explicar parses e Number
+      //   var num1 = prompt("Digite valor 1");
+      //   var num2 = prompt("Digite valor 2");
+      //   var valor = Number(num1) + Number(num2);
+      //   document.write("Valor da soma: " + valor);
+
+      // ? Datas
+      //   ! Explicar Arrays das duas formas: new Array e []
+      //   * Dup line (shift alt seta)
+      var date = new Date();
+      //   document.write(date.getDate() + " ");
+      //   document.write(date.getDay() + " ");
+      //   document.write(date.getMonth() + " ");
+      //   document.write(date.getFullYear() + "<br/>");
+      // document.write(semana[date.getDay()] + " ");
+      // document.write(mes[date.getMonth()] + "<br/>");
+      //   var semana = new Array("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado");
+      //   var mes = new Array("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho");
+      //   document.write("Hoje é " + semana[date.getDay()] + ", dia " + date.getDate() + " de " + mes[date.getMonth()] + " de " + date.getFullYear());
+
+      //   ? Funções
+      //   ! Função sem args
+      var n1, n2;
+      n1 = 10;
+      n2 = 20;
+      function soma() {
+        var res = n1 + n2;
+        alert("Soma: " + res);
+      }
+      soma();
+      //   ! Função com args
+      function subtracao(n1, n2) {
+        var res = n1 - n2;
+        alert("Subtração: " + res);
+      }
+      subtracao(10, 9);
+      //   ! Função com retorno
+      function multiplica(n1, n2) {
+        var res = n1 * n2;
+        return res;
+      }
+      alert("Multiplicação: " + multiplica(10, 2));
+      //   Mostrar window.open e window.location.href com _blank
+      //   Relogio com setInterval e setTimeout
+      //   Form com onSubmit
+      //   ! Adicionar funçao de mudarcor onFocus e mudar blur onBlur
+    </script>
+  </head>
+  <body>
+    <!-- <div>Texto showdibola</div> -->
+  </body>
+</html>
