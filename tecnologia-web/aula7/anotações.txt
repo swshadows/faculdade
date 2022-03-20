@@ -1,0 +1,26 @@
+Variáveis podem ser do tipo:
+    var para escopo global;
+    let para escopo local;
+    const para escopo local e constantes;
+
+Em comparações:
+    = indica atribuição de valor;
+    == indica comparação ex: (true == 'true' resulta em true, pois são de igual valor);
+    === indica comparação de valor e tipo ex: (true === 'true' resulta em falso pois são de igual valor mas de tipos diferentes);
+
+Para transformar numeros:
+    '11' é string e pode ser transformado em 11 com parseInt('11');
+    Para floats, usa-se o parseFloat();
+    Para ficar mais dinâmico ainda, pode-se usar Number();
+
+Para criar Arrays -> [1,2,3,4,5]
+    Pode-se usar a sintaxe:
+        var array = new Array(1,2,3,4,5)
+    ou
+        var array = [1,2,3,4,5]
+
+Para usar concatenação de strings, pode-se usar
+    Concatenação normal:
+        ('String 1 ' + variavel + ' String 2');
+    ou Template Strings:
+        (`String 1 ${variavel} String 2`)
