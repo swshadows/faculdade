@@ -2,6 +2,12 @@
 
 > Um repositório para códigos e arquivos da faculdade, trabalhos e outras parafernálias
 
+<div align="center">
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/swshadows/faculdade?color=313131&label=Tamanho%20do%20Reposit%C3%B3rio&logo=github&logoColor=fff&style=flat-square)
+
+</div>
+
 <div align=center>
     <img width=100 src="assets/college.png">
 </div>
