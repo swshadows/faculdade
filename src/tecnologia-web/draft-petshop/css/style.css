@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+:root {
+  --var-bg-color: rgba(224, 224, 224, 0.95);
+}
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url("../assets/bg.jpg");
+}
+header,
+footer {
+  background-color: var(--var-bg-color);
+  height: 120px;
+  margin: 16px;
+  border-radius: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+.user-credentials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.searchbar input {
+  background-color: rgba(203, 203, 203, 0.3);
+  border: 1px solid #bdbcbc;
+  width: 464px;
+  height: 66px;
+  border-radius: 14px;
+  padding: 0 10px;
+  outline: 0;
+  transition: 300ms all;
+}
+.searchbar input:focus {
+  border: 1px solid #9a9a9a;
+  width: 800px;
+}
+#user-icon {
+  width: 92px;
+}
+#search-icon {
+  position: absolute;
+  right: 50px;
+  width: 32px;
+}
+main {
+  margin-top: 56px;
+  background: var(--var-bg-color);
+  width: 75%;
+  height: 620px;
+  margin: 0 auto;
+  border-radius: 17px;
+}
+.cards {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 18px;
+  width: 264px;
+  height: 264px;
+  transition: 300ms all;
+}
+.card-item:hover {
+  transform: scale(1.5);
+}
+.product-image {
+  width: 120px;
+  transition: 300ms all;
+}
+.product-image:hover {
+  transform: scale(1.3);
+}
+.container-buy {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.buybtn {
+  cursor: pointer;
+  width: 92px;
+  height: 42px;
+  background-color: #5f9cc9;
+  border-radius: 15px;
+  border: 2px solid #b8b8b8;
+  color: #fff;
+  transition: 300ms all;
+}
+.buybtn:hover {
+  background-color: #fff;
+  color: #5f9cc9;
+}
+footer {
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+footer p {
+  margin: 10px 0 0;
+}
+.socials {
+  display: flex;
+  gap: 10px;
+}
+.social-icon {
+  width: 40px;
+}
+footer small {
+  align-self: flex-start;
+  margin: 10px;
+}
