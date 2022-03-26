@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/form.css" type="text/css" />
+    <title>Criar conta</title>
+  </head>
+  <body>
+    <main>
+      <h1>Insira suas informações:</h1>
+      <form name="form">
+        <label>
+          Nome completo:
+          <input id="name" type="text" class="text-input" name="name" />
+        </label>
+        <label>
+          Senha:
+          <input id="password" type="password" class="text-input" name="password" />
+        </label>
+        <label>
+          Confirma sua senha:
+          <input id="conf-password" type="password" class="text-input" name="conf-password" />
+        </label>
+        <label>
+          Email:
+          <input id="email" type="email" class="text-input" name="email" />
+        </label>
+        <label>
+          Gênero:
+          <input type="radio" name="gender" value="F" /> Feminino <input type="radio" name="gender" value="M" /> Masculino
+        </label>
+        <label> <input type="checkbox" name="confirm" /> Concordo com os termos de uso </label>
+        <input onclick="return validate(event)" type="submit" value="Enviar" />
+      </form>
+      <a id="link-return" href="index.html">Retornar a página principal</a>
+    </main>
+    <script src="js/form.js"></script>
+  </body>
+</html>
