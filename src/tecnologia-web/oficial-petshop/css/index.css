@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../assets/bg.jpg);
+}
+header,
+footer {
+  margin: 1rem auto;
+  width: 98%;
+  height: 120px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+#user-things,
+#search-things {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+#user-things img {
+  width: 90px;
+}
+#user-things a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #eee;
+  background-color: #3250a8;
+  padding: 0.4rem;
+  border-radius: 10px;
+  transition: 400ms all;
+}
+#user-things a:hover {
+  color: #3250a8;
+  border: 1px solid #ddd;
+  background-color: transparent;
+}
+#search-things input {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  width: 200px;
+  transition: 400ms all;
+}
+#search-things input:focus {
+  width: 400px;
+}
+#search-things img {
+  width: 30px;
+  position: relative;
+  right: 60px;
+}
+main {
+  margin: 0 auto;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 90%;
+  height: 68vh;
+  background-color: #eee;
+}
+.card {
+  width: 70%;
+  height: 70%;
+  background-color: #ddd;
+  padding: 1rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 400ms all;
+  border: 1px solid #aaa;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+.card img {
+  width: 30%;
+  transition: 400ms all;
+}
+.card img:hover {
+  transform: scale(1.5);
+}
+.card div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.card button {
+  background-color: #3250a8;
+  padding: 0.3rem 1rem;
+  border-radius: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 400ms all;
+}
+.card button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #3250a8;
+  border: 1px solid #3250a8;
+}
+footer {
+  margin: 1rem auto;
+  flex-direction: column;
+}
+footer h1 {
+  font-size: 20px;
+}
+footer div {
+  display: flex;
+  gap: 1rem;
+}
+footer img {
+  width: 32px;
+  transition: 200ms all;
+}
+footer img:hover {
+  transform: scale(1.4);
+}
+footer small {
+  align-self: flex-start;
+  margin: 0 1rem 0.2rem;
+}
