@@ -21,7 +21,6 @@
 | [Sistemas Operacionais](src/sistemas-operacionais/)                           |   3º    |          UEA |
 | [Algoritmos e Estrutura de Dados I](src/estrutura-de-dados1/)                 |   3º    |          UEA |
 | [Estrutura de Dados II](src/estrutura-de-dados2/)                             |   4º    |      FAMETRO |
-| [Gestão de Processos de Negócios](src/gest%C3%A3o-de-processos-de-negocios/)  |   4º    |      FAMETRO |
 | [Modelagem de Banco de Dados](src/modelagem-de-banco-de-dados/)               |   4º    |      FAMETRO |
 | [Manipulação de Banco de Dados](src/manipula%C3%A7%C3%A3o-de-banco-de-dados/) |   5º    |      FAMETRO |
 | [Tecnologia Web](src/tecnologia-web/)                                         |   5º    |      FAMETRO |
