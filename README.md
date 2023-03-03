@@ -24,3 +24,4 @@
 | [Modelagem de Banco de Dados](src/modelagem-de-banco-de-dados/)               |   4º    |      FAMETRO |
 | [Manipulação de Banco de Dados](src/manipula%C3%A7%C3%A3o-de-banco-de-dados/) |   5º    |      FAMETRO |
 | [Tecnologia Web](src/tecnologia-web/)                                         |   5º    |      FAMETRO |
+| [Desenvolvimento de Sistemas](src/desenvolvimento-de-sistemas/)               |   7º    |      FAMETRO |
